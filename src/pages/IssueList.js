@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { ListGroup } from "react-bootstrap";
-import Issue from "./Issue";
+import Issue from "../components/Issue";
 
 function IssueList() {
     const [issues, setIssues] = useState([]);
